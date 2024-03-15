@@ -1,6 +1,6 @@
 import { fireEvent, render } from "@testing-library/react";
-import { InputComponent } from "./DynamicComponent";
 import userEvent from "@testing-library/user-event";
+import { InputComponent } from "./DynamicComponent";
 
 describe("InputComponent 테스트", () => {
   // setup 함수: 내부 컴포넌트 렌더링
